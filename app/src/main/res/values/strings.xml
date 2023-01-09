@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News Anchor</string>
+    <string name="news_anchor">News Anchor</string>
+    <string name="source_name">Source Name</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="please_search_topic">Please Search Topic</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph" app:startDestination="@id/fragmentNewsList">
+
+    <fragment android:id="@+id/fragmentNewsList" android:name="com.kdl.newsanchor.ui.fragments.FragmentNewsList"
+              android:label="FragmentNewsList">
+        <action android:id="@+id/action_fragmentNewsList_to_fragmentArticle" app:destination="@id/fragmentArticle"/>
+    </fragment>
+    <fragment android:id="@+id/fragmentArticle" android:name="com.kdl.newsanchor.ui.fragments.FragmentArticle"
+              android:label="FragmentArticle">
+        <action android:id="@+id/action_fragmentArticle_to_fragmentNewsDetails"
+                app:destination="@id/fragmentNewsDetails"/>
+        <argument android:name="new_item" app:argType="com.kdl.newsanchor.domain.models.NewsItem"/>
+    </fragment>
+
+    <fragment android:id="@+id/fragmentNewsDetails" android:name="com.kdl.newsanchor.ui.fragments.FragmentNewsDetails"
+              android:label="FragmentNewsDetails">
+        <argument android:name="article_url" app:argType="string"/>
+    </fragment>
+</navigation>

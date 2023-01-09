@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvFullTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="100dp"
+                    android:maxLines="1"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dubai_bold"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="@string/source_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+            />
+
+            <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvFullSourceName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="100dp"
+                    android:maxLines="1"
+                    android:fontFamily="@font/dubai_medium"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:textSize="17dp"
+                    android:text="@string/source_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvFullTitle"
+            />
+
+            <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvFullAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="100dp"
+                    android:maxLines="1"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dubai_light"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:textSize="17dp"
+                    android:text="@string/source_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvFullSourceName"
+            />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/ivFullNewsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvFullAuthor" />
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="100dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dubai_light"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    android:textSize="17dp"
+                    android:maxLines="20"
+                    android:maxLength="1000"
+                    android:freezesText="true"
+                    android:text="@string/source_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivFullNewsImage"
+            />
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSeeMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/tvContent"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/dubai_medium"
+                    android:elevation="10dp"
+                    android:textSize="16dp"
+                    android:backgroundTint="@color/mediumDarkBackground"
+                    android:text="See More"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="20dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

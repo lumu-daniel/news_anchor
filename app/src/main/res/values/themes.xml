@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsAnchor" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/lightBackground</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorOnPrimary">@color/md_blue_50</item>
+        <item name="colorPrimary">@color/darkBackground</item>
+        <item name="android:colorBackground">@color/lightBackground</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mediumDarkBackground</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/md_blue_50</item>
+        <!-- Status bar color. -->
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="colorOnBackground">@color/md_blue_50</item>
+        <item name="android:textColor">@color/md_blue_50</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="OutlineBoxStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/md_blue_50</item>
+        <item name="strokeColor">@color/md_blue_50</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
