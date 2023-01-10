@@ -27,4 +27,4 @@ The project is entirely developed in Kotlin with the following functionalities:
 - Dynamic search
 - Pull to refresh
 
-#### Languages/Scripts: &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/java.png' alt='Java' height='18'>](https://www.java.com/en/) [Java] &nbsp; | &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/kotlin.png' alt='TypeScript' height='18'>](https://kotlinlang.org/) [Kotlin] &nbsp; | &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/dart.png' alt='HTML5' height='18'>](https://dart.dev/) [Dart] &nbsp; | &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/javascript.gif' alt='Java Script' height='18'>](https://www.javascript.com/) [Java Script]
+#### Languages/Scripts: &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/java.png' alt='Java' height='18'>](https://www.java.com/en/) [Java] &nbsp; | &nbsp; [<img src='https://github.com/lumu-daniel/lumu-daniel/blob/main/assets/images/kotlin.png' alt='TypeScript' height='18'>](https://kotlinlang.org/) [Kotlin]
